@@ -194,6 +194,13 @@
             app:key="mixedPort"
             app:title="@string/port_proxy"
             app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:defaultValue=""
+            app:icon="@drawable/ic_baseline_nat_24"
+            app:key="mixedListen"
+            app:summary="@string/mixed_listen_sum"
+            app:title="@string/mixed_listen"
+            app:useSimpleSummaryProvider="true" />
         <SwitchPreference
             app:defaultValue="false"
             app:key="appendHttpProxy"
